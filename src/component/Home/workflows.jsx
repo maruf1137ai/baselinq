@@ -49,7 +49,7 @@ const Workflows = () => {
           We don't replace your workflows. We make them legally bulletproof.
         </p>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-8 px-5">
           {items.map((item, i) => {
             const { title, ai_adds, description } = item;
             return (
@@ -115,7 +115,7 @@ const Workflows = () => {
                   <img
                     src="/images/workflows-vactor.png"
                     alt=""
-                    className="absolute top-1/2 -right-7"
+                    className="absolute top-1/2 -right-7 hidden sm:block"
                   />
                 )}
               </div>
