@@ -37,11 +37,11 @@ const Works = () => {
   return (
     <div className="">
       <div className="container mx-auto py-10 lg:py-14">
-        <h1 className="text-[64px] leading-tight font-normal mb-[25px]">
+        <h1 className="sm:text-5xl text-4xl lg:text-[64px] leading-tight font-normal mb-[25px]">
           How Baselinq Works
         </h1>
 
-        <p className="text-[22px] text-hero-text max-w-4xl text-[#6A6A6A]">
+        <p className="text-xl md:text-[22px] text-hero-text max-w-4xl text-[#6A6A6A]">
           Four simple steps to transform your project delivery
         </p>
 

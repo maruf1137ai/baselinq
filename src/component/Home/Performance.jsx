@@ -4,8 +4,8 @@ import React from "react";
 const Performance = () => {
   return (
     <div className="">
-      <div className="container mx-auto py-10 lg:py-14">
-        <h1 className="text-[64px] leading-tight font-normal mb-[25px]">
+      <div className="container mx-auto py-10 lg:py-14 px-4">
+        <h1 className="sm:text-5xl text-4xl lg:text-[64px] leading-tight font-normal mb-[25px] flex gap-2 flex-wrap">
           Performance
           <span className="bg-gradient-to-r from-black via-primary to-primary bg-clip-text text-transparent">
             Transformation

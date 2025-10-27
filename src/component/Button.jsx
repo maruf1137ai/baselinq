@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-const Button = ({ href, title, isLight }) => {
+const Button = ({ href, title, isLight, theme }) => {
   return (
     <Link
       className={`justify-center items-center flex py-4 px-5 text-base rounded-[3px] gap-1.5 ${

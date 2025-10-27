@@ -5,7 +5,7 @@ const Document = () => {
   return (
     <section className="bg-black-dark text-white-light relative">
       <div className=" container mx-auto px-4 py-20 lg:pb-32 relative z-10">
-        <h2 className="text-[64px] leading-tight font-normal text-section-title text-center mb-6 text-white">
+        <h2 className="tsm:text-5xl text-4xl lg:text-[64px] leading-tight font-normal text-section-title text-center mb-6 text-white">
           Your Project Runs on Documents.
           {/* <br /> */}
           The Disconnect is Costing{" "}
@@ -14,7 +14,7 @@ const Document = () => {
           </span>{" "}
         </h2>
 
-        <p className="text-[22px] text-section-subtitle text-center mb-[100px]">
+        <p className="text-xl md:text-[22px] text-section-subtitle text-center mb-[100px]">
           Without contract-site connection, RFIs, revisions, and instructions
           become chaos.
         </p>

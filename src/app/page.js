@@ -8,6 +8,9 @@ import Works from "@/component/Home/works";
 import Delivery from "@/component/Home/delivery";
 import Platform from "@/component/Home/platform";
 import Construction from "@/component/Home/Construction";
+import Testimonial from "@/component/Home/testimonial";
+import Newseleter from "@/component/Home/newseleter";
+import SignText from "@/component/signText";
 
 export default function Home() {
   return (
@@ -21,6 +24,8 @@ export default function Home() {
       <Delivery />
       <Platform />
       <Construction />
+      <Testimonial />
+      <Newseleter />
     </>
   );
 }

@@ -56,22 +56,22 @@ const Platform = () => {
   return (
     <section className="bg-black-dark text-white-light relative">
       <div className=" container mx-auto px-4 py-20 lg:pb-32 relative z-10">
-        <h2 className="text-[64px] leading-tight font-normal text-section-title text-center mb-6 text-white">
+        <h2 className="sm:text-5xl text-4xl lg:text-[64px] leading-tight font-normal text-section-title text-center mb-6 text-white">
           One Platform. Total Control.
         </h2>
 
-        <p className="text-[22px] text-section-subtitle text-center mb-[100px]">
+        <p className="text-xl md:text-[22px] text-section-subtitle text-center mb-[100px]">
           Everything you need to manage construction projects intelligently
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* Current Reality Card */}
-          {items.map((item) => {
-            const { id, title, image, description, features } = item;
+          {items.map((item, i) => {
+            const { title, image, description, features } = item;
 
             return (
               <div
-                key={id}
+                key={i}
                 className="bg-[#FAFAFA]/10 backdrop-blur-sm border-border py-9 px-8 text-white border border-[#AAAAAA] shadow-[12px_15px_0_0_rgba(255,255,255,0.25)]">
                 <div className="flex items-start gap-3.5">
                   <div className="icon-box mb-[29px] flex justify-center">

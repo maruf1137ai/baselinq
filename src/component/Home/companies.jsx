@@ -17,7 +17,7 @@ const Companies = () => {
       <p className="title text-sm text-black-light mb-4">
         Trusted by leading construction standards
       </p>
-      <div className="flex items-center gap-10 justify-between flex-wrap">
+      <div className="flex items-center gap-10 justify-center lg:justify-between flex-wrap">
         {images.map(({ id, image }) => {
           return (
             <div className="item h-[28px]" key={id}>

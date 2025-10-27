@@ -11,7 +11,7 @@ const listItem = [
 
 const Header = () => {
   return (
-    <header className="relative min-h-screen overflow-hidden">
+    <header className="relative min-h-screen overflow-hidden mt-[88px]">
       <div
         className="hero-bg py-20 flex justify-center"
         style={{ backgroundImage: "url('/images/hero-bg.png')" }}>
@@ -20,7 +20,7 @@ const Header = () => {
 
       <section className="container mx-auto px-4">
         <div className="max-w-5xl">
-          <h1 className="text-[64px] leading-tight font-normal mb-[25px]">
+          <h1 className="sm:text-5xl text-4xl lg:text-[64px] leading-tight font-normal mb-[25px]">
             The operational{" "}
             <span className="bg-gradient-to-r from-black via-primary to-primary bg-clip-text text-transparent">
               intelligence
@@ -28,7 +28,7 @@ const Header = () => {
             platform for construction
           </h1>
 
-          <p className="text-[22px] text-hero-text mb-12 max-w-4xl">
+          <p className="text-xl md:text-[22px] text-hero-text mb-12 max-w-4xl">
             Baseling unifies contracts, documents, and communications into one
             intelligent system that prevents disputes, eliminates delays, and
             accelerates delivery.
