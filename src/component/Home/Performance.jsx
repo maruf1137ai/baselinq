@@ -17,7 +17,11 @@ const Performance = () => {
         </p>
 
         <div className="design w-full relative mt-[100px]">
-          <img src="/images/performance-img.png" alt="Logo" />
+          <img
+            src="/images/performance-img.png"
+            alt="Logo"
+            className="w-full h-full"
+          />
         </div>
 
         <div className="bg-[#FAFAFA]/10 backdrop-blur-sm border-border py-9 px-8 text-white border border-[#AAAAAA] shadow-[12px_15px_0_0_rgba(188,188,188,0.25)] mt-[75px]">
