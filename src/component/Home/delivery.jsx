@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const items = [
   {
@@ -98,14 +101,20 @@ const Delivery = () => {
             );
           })}
         </div>
+
         {/* public/images/pipeline-bg.png */}
         <div className="pipeline py-12 px-4 bg-white mt-[80px] bg-[url('/images/pipeline-bg.png')] bg-cover bg-center bg-no-repeat">
-          <p className="text-[18px] ml-10 mb-5">
-            Document Intelligence Pipeline
-          </p>
-          <img src="/images/pipeline-img.png" alt="" className="w-full" />
+          <p className="text-[18px] ml-10">Document Intelligence Pipeline</p>
+          {/* <img src="/images/pipeline-img.png" alt="" className="w-full" /> */}
+          <div className="w-full">
+            <DotLottieReact
+              src="https://lottie.host/5f077191-c618-4870-93ae-cf2503d682ce/qMYTbJybBa.lottie"
+              loop
+              autoplay
+            />
+          </div>
 
-          <div className="bg-[#FAFAFA] backdrop-blur-sm border-border py-4 px-5 text-white border border-[#AAAAAA] shadow-[12px_15px_0_0_rgba(188,188,188,0.25)] mt-[75px] flex justify-between gap-5 flex-wrap">
+          <div className="bg-[#FAFAFA] backdrop-blur-sm border-border py-4 px-5 text-white border border-[#AAAAAA] shadow-[12px_15px_0_0_rgba(188,188,188,0.25)] flex justify-between gap-5 flex-wrap">
             <div className="item text-center">
               <p className="text-2xl text-black font-semibold">247</p>
               <p className="text-[12px] text-[#4A5565]">Clauses Extracted</p>

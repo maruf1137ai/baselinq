@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Performance = () => {
   return (
@@ -17,11 +20,18 @@ const Performance = () => {
         </p>
 
         <div className="design w-full relative mt-[100px]">
-          <img
+          {/* <img
             src="/images/performance-img.png"
             alt="Logo"
             className="w-full h-full"
-          />
+          /> */}
+          <div className="w-full">
+            <DotLottieReact
+              src="https://lottie.host/0ddc5296-580b-41f9-aae9-586e1c55975b/qO9OXlUzHn.lottie"
+              loop
+              autoplay
+            />
+          </div>
         </div>
 
         <div className="bg-[#FAFAFA]/10 backdrop-blur-sm border-border py-9 px-8 text-white border border-[#AAAAAA] shadow-[12px_15px_0_0_rgba(188,188,188,0.25)] mt-[75px]">

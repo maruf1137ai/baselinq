@@ -1,21 +1,25 @@
+"use client";
+
 import React from "react";
 import Button from "../Button";
 import Companies from "./companies";
-
-const listItem = [
-  "No credit card required",
-  "Free forever - no premium tiers",
-  "Your data never sold",
-  "Cancel anytime",
-];
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Header = () => {
   return (
     <header className="relative min-h-screen overflow-hidden mt-[88px]">
       <div
-        className="hero-bg py-20 flex justify-center"
+        className="hero-bg flex justify-center"
         style={{ backgroundImage: "url('/images/hero-bg.png')" }}>
-        <img src="/images/hero-img.png" alt="" />
+        {/* <img src="/images/hero-img.png" alt="" /> */}
+        <div className="w-full">
+          <DotLottieReact
+            src="https://lottie.host/a2598697-513d-4928-96df-7cc22a1f854d/x90112SZCQ.lottie"
+            loop
+            autoplay
+            // style={{ height: 310 }}
+          />
+        </div>
       </div>
 
       <section className="container mx-auto px-4">
